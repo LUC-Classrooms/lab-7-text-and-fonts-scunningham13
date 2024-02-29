@@ -4,14 +4,13 @@
 
 function setup() {
   createCanvas(640, 240);
-  textFont("Arial");
+  textFont("times new roman");
 }
 
 function draw() {
   background(200);
   textSize(16);
-  text("one small step for a man ...", 20, 60);
-  textSize(32);
-  text("one giant leap for mankind.", 20, 160);
-
+  text("life moves pretty fast, if you don't stop and look around once in a while...", 20, 60);
+ if (mouseIsPressed) 
+  text("you could miss it.  - Ferris Bueller", 20, 160);
 }
